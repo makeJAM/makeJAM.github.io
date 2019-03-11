@@ -1,0 +1,9 @@
+{{ with .Params.classic_manager_link }}
+<blockquote class="classic_manager_link">
+  <strong class="callout-title">The <a href="https://manager.fixMe">@fixme Classic Manager</a></strong>
+  <div>this was a link <a href="https://cloud.fixMe">Cloud Manager</a>, with some formating in it. <a href={{ print ($.Site.BaseURL) (.) }}>{{ $.Page.Title }}</a> guide.</div>
+</blockquote>
+{{ end }}
+
+
+
